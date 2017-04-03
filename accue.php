@@ -1,6 +1,6 @@
 <?php
 class AccuWeather {
-    //$apikey = "jwfhhGNmrrPC45kf2fUnj3n6IUsG8nEs"
+    //$apikey = "your own Api key"
     
     function CurrentWeather($query){
         $service_url = 'http://dataservice.accuweather.com/currentconditions/v1/1122763.json?apikey=' . apikey .'getphotos=true'
